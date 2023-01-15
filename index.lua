@@ -5,10 +5,10 @@ wait(5)
 while wait(1.2) do
 	if game.Workspace[plr].Humanoid.PlatformStand == true then
 		if game.Workspace[plr].Humanoid.Health ~= 0 then
-			game.Players.LocalPlayer:Kick(quotes[math.random( 1, 4 )])
+			game.Players.LocalPlayer:Kick(quotes[math.random( 1, 5 )])
 		end
 	end
 	if game.Workspace[plr].Humanoid.WalkSpeed >= 25 then
-		game.Players.LocalPlayer:Kick(quotes[math.random( 1, 4 )])
+		game.Players.LocalPlayer:Kick(quotes[math.random( 1, 5 )])
 	end
 end
